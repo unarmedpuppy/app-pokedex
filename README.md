@@ -5,7 +5,7 @@ A minimalist web application displaying all Pokémon in National Pokédex order 
 ## Access
 
 - **URL**: https://pokedex.server.unarmedpuppy.com
-- **Port**: 8097 (direct access, optional)
+- **Port**: 8098 (direct access, optional)
 - **Status**: ✅ ACTIVE
 
 ## Features
