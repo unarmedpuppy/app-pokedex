@@ -106,6 +106,7 @@ def download_sprite(pokemon, output_dir):
         f"https://img.pokemondb.net/sprites/scarlet-violet/normal/{sprite_name}.png",
         f"https://img.pokemondb.net/sprites/brilliant-diamond-shining-pearl/normal/{sprite_name}.png",
         f"https://img.pokemondb.net/sprites/bank/normal/{sprite_name}.png",
+        f"https://img.pokemondb.net/sprites/home/normal/{sprite_name}.png",
     ]
     
     headers = {
