@@ -6,7 +6,7 @@ services:
     container_name: pokedex
     restart: unless-stopped
     ports:
-      - "8098:80"
+      - "8103:80"
     networks:
       - my-network
     labels:
