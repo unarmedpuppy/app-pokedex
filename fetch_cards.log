@@ -1,0 +1,1223 @@
+Fetching Pokemon card images from TCG API...
+  [1/1025] Fetching card for Bulbasaur (#1)...
+  Error fetching card for Bulbasaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Bulbasaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Bulbasaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [2/1025] Fetching card for Ivysaur (#2)...
+  Error fetching card for Ivysaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ivysaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ivysaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [3/1025] Fetching card for Venusaur (#3)...
+  Error fetching card for Venusaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Venusaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Venusaur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [4/1025] Fetching card for Charmander (#4)...
+  Error fetching card for Charmander: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Charmander: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Charmander: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [5/1025] Fetching card for Charmeleon (#5)...
+  Error fetching card for Charmeleon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [6/1025] Fetching card for Charizard (#6)...
+    ✓ Found: Charizard ex (Obsidian Flames)
+  [7/1025] Fetching card for Squirtle (#7)...
+  Error fetching card for Squirtle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Squirtle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Squirtle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [8/1025] Fetching card for Wartortle (#8)...
+  Error fetching card for Wartortle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wartortle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wartortle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [9/1025] Fetching card for Blastoise (#9)...
+  Error fetching card for Blastoise: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Blastoise ex (151)
+  [10/1025] Fetching card for Caterpie (#10)...
+  Error fetching card for Caterpie: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Caterpie: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Caterpie (151)
+  [11/1025] Fetching card for Metapod (#11)...
+  Error fetching card for Metapod: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Metapod: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Metapod: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [12/1025] Fetching card for Butterfree (#12)...
+  Error fetching card for Butterfree: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Butterfree: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Butterfree: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [13/1025] Fetching card for Weedle (#13)...
+  Error fetching card for Weedle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Weedle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Weedle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [14/1025] Fetching card for Kakuna (#14)...
+    ✗ No card found
+  [15/1025] Fetching card for Beedrill (#15)...
+    ✗ No card found
+  [16/1025] Fetching card for Pidgey (#16)...
+    ✓ Found: Pidgey (Obsidian Flames)
+  [17/1025] Fetching card for Pidgeotto (#17)...
+  Error fetching card for Pidgeotto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pidgeotto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pidgeotto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [18/1025] Fetching card for Pidgeot (#18)...
+  Error fetching card for Pidgeot: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pidgeot: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pidgeot: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [19/1025] Fetching card for Rattata (#19)...
+  Error fetching card for Rattata: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Rattata: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Rattata: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [20/1025] Fetching card for Raticate (#20)...
+  Error fetching card for Raticate: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Raticate: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Raticate: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [21/1025] Fetching card for Spearow (#21)...
+  Error fetching card for Spearow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Spearow (Mega Evolution)
+  [22/1025] Fetching card for Fearow (#22)...
+  Error fetching card for Fearow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Fearow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Fearow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [23/1025] Fetching card for Ekans (#23)...
+  Error fetching card for Ekans: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ekans: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ekans: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [24/1025] Fetching card for Arbok (#24)...
+  Error fetching card for Arbok: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Arbok: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Arbok: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [25/1025] Fetching card for Pikachu (#25)...
+  Error fetching card for Pikachu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pikachu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pikachu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [26/1025] Fetching card for Raichu (#26)...
+  Error fetching card for Raichu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [27/1025] Fetching card for Sandshrew (#27)...
+  Error fetching card for Sandshrew: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [28/1025] Fetching card for Sandslash (#28)...
+  Error fetching card for Sandslash: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sandslash: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sandslash: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [29/1025] Fetching card for Nidoran♀ (#29)...
+  Error fetching card for Nidoran♀: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Nidoran ♀ (Plasma Freeze)
+  [30/1025] Fetching card for Nidorina (#30)...
+  Error fetching card for Nidorina: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidorina: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidorina: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [31/1025] Fetching card for Nidoqueen (#31)...
+  Error fetching card for Nidoqueen: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidoqueen: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidoqueen: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [32/1025] Fetching card for Nidoran♂ (#32)...
+  Error fetching card for Nidoran♂: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidoran♂: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidoran♂: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [33/1025] Fetching card for Nidorino (#33)...
+  Error fetching card for Nidorino: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidorino: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidorino: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [34/1025] Fetching card for Nidoking (#34)...
+  Error fetching card for Nidoking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nidoking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Team Rocket's Nidoking ex (Destined Rivals)
+  [35/1025] Fetching card for Clefairy (#35)...
+  Error fetching card for Clefairy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Clefairy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Clefairy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [36/1025] Fetching card for Clefable (#36)...
+  Error fetching card for Clefable: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [37/1025] Fetching card for Vulpix (#37)...
+  Error fetching card for Vulpix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vulpix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vulpix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [38/1025] Fetching card for Ninetales (#38)...
+  Error fetching card for Ninetales: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ninetales: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ninetales: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [39/1025] Fetching card for Jigglypuff (#39)...
+    ✓ Found: Mega Lopunny & Jigglypuff-GX (Cosmic Eclipse)
+  [40/1025] Fetching card for Wigglytuff (#40)...
+  Error fetching card for Wigglytuff: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wigglytuff: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wigglytuff: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [41/1025] Fetching card for Zubat (#41)...
+  Error fetching card for Zubat: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Zubat: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [42/1025] Fetching card for Golbat (#42)...
+    ✗ No card found
+  [43/1025] Fetching card for Oddish (#43)...
+  Error fetching card for Oddish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [44/1025] Fetching card for Gloom (#44)...
+  Error fetching card for Gloom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gloom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gloom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [45/1025] Fetching card for Vileplume (#45)...
+  Error fetching card for Vileplume: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vileplume: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vileplume: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [46/1025] Fetching card for Paras (#46)...
+  Error fetching card for Paras: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Paras: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Paras (Crown Zenith Galarian Gallery)
+  [47/1025] Fetching card for Parasect (#47)...
+  Error fetching card for Parasect: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Parasect: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Parasect: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [48/1025] Fetching card for Venonat (#48)...
+    ✓ Found: Venonat (Phantom Forces)
+  [49/1025] Fetching card for Venomoth (#49)...
+  Error fetching card for Venomoth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Venomoth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Venomoth (HS—Triumphant)
+  [50/1025] Fetching card for Diglett (#50)...
+  Error fetching card for Diglett: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Diglett: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Diglett: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [51/1025] Fetching card for Dugtrio (#51)...
+  Error fetching card for Dugtrio: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dugtrio: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dugtrio: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [52/1025] Fetching card for Meowth (#52)...
+    ✓ Found: Meowth (Noble Victories)
+  [53/1025] Fetching card for Persian (#53)...
+  Error fetching card for Persian: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Persian: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Persian: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [54/1025] Fetching card for Psyduck (#54)...
+  Error fetching card for Psyduck: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Psyduck: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Psyduck: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [55/1025] Fetching card for Golduck (#55)...
+  Error fetching card for Golduck: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Golduck: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Golduck: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [56/1025] Fetching card for Mankey (#56)...
+  Error fetching card for Mankey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mankey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mankey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [57/1025] Fetching card for Primeape (#57)...
+  Error fetching card for Primeape: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Primeape: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Primeape: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [58/1025] Fetching card for Growlithe (#58)...
+  Error fetching card for Growlithe: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Growlithe: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Growlithe: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [59/1025] Fetching card for Arcanine (#59)...
+  Error fetching card for Arcanine: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Arcanine: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Arcanine: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [60/1025] Fetching card for Poliwag (#60)...
+  Error fetching card for Poliwag: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poliwag: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poliwag: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [61/1025] Fetching card for Poliwhirl (#61)...
+  Error fetching card for Poliwhirl: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poliwhirl: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poliwhirl: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [62/1025] Fetching card for Poliwrath (#62)...
+  Error fetching card for Poliwrath: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poliwrath: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poliwrath: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [63/1025] Fetching card for Abra (#63)...
+  Error fetching card for Abra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Abra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Abra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [64/1025] Fetching card for Kadabra (#64)...
+  Error fetching card for Kadabra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kadabra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Kadabra (Paldean Fates)
+  [65/1025] Fetching card for Alakazam (#65)...
+    ✓ Found: Alakazam ex (151)
+  [66/1025] Fetching card for Machop (#66)...
+  Error fetching card for Machop: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Machop: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Machop: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [67/1025] Fetching card for Machoke (#67)...
+  Error fetching card for Machoke: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [68/1025] Fetching card for Machamp (#68)...
+    ✗ No card found
+  [69/1025] Fetching card for Bellsprout (#69)...
+    ✗ No card found
+  [70/1025] Fetching card for Weepinbell (#70)...
+    ✗ No card found
+  [71/1025] Fetching card for Victreebel (#71)...
+    ✗ No card found
+  [72/1025] Fetching card for Tentacool (#72)...
+    ✗ No card found
+  [73/1025] Fetching card for Tentacruel (#73)...
+    ✗ No card found
+  [74/1025] Fetching card for Geodude (#74)...
+    ✗ No card found
+  [75/1025] Fetching card for Graveler (#75)...
+    ✗ No card found
+  [76/1025] Fetching card for Golem (#76)...
+    ✗ No card found
+  [77/1025] Fetching card for Ponyta (#77)...
+    ✗ No card found
+  [78/1025] Fetching card for Rapidash (#78)...
+    ✗ No card found
+  [79/1025] Fetching card for Slowpoke (#79)...
+  Error fetching card for Slowpoke: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slowpoke: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [80/1025] Fetching card for Slowbro (#80)...
+    ✓ Found: Dark Slowbro (Legendary Collection)
+  [81/1025] Fetching card for Magnemite (#81)...
+  Error fetching card for Magnemite: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magnemite: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magnemite: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [82/1025] Fetching card for Magneton (#82)...
+    ✓ Found: Magneton (Base)
+  [83/1025] Fetching card for Farfetchd (#83)...
+  Error fetching card for Farfetchd: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Farfetchd: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Farfetchd: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [84/1025] Fetching card for Doduo (#84)...
+  Error fetching card for Doduo: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Doduo: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Doduo: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [85/1025] Fetching card for Dodrio (#85)...
+  Error fetching card for Dodrio: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dodrio: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Dodrio V (Fusion Strike)
+  [86/1025] Fetching card for Seel (#86)...
+  Error fetching card for Seel: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Seel: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Seel: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [87/1025] Fetching card for Dewgong (#87)...
+  Error fetching card for Dewgong: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dewgong: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dewgong: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [88/1025] Fetching card for Grimer (#88)...
+  Error fetching card for Grimer: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Grimer: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Grimer: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [89/1025] Fetching card for Muk (#89)...
+  Error fetching card for Muk: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Muk: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Muk: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [90/1025] Fetching card for Shellder (#90)...
+  Error fetching card for Shellder: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shellder: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shellder: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [91/1025] Fetching card for Cloyster (#91)...
+  Error fetching card for Cloyster: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Cloyster: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Cloyster: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [92/1025] Fetching card for Gastly (#92)...
+  Error fetching card for Gastly: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Gastly (Temporal Forces)
+  [93/1025] Fetching card for Haunter (#93)...
+  Error fetching card for Haunter: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Haunter: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Haunter: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [94/1025] Fetching card for Gengar (#94)...
+  Error fetching card for Gengar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gengar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gengar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [95/1025] Fetching card for Onix (#95)...
+  Error fetching card for Onix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Onix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Onix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [96/1025] Fetching card for Drowzee (#96)...
+  Error fetching card for Drowzee: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Drowzee: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Drowzee: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [97/1025] Fetching card for Hypno (#97)...
+  Error fetching card for Hypno: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Hypno: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Dark Hypno (Team Rocket Returns)
+  [98/1025] Fetching card for Krabby (#98)...
+  Error fetching card for Krabby: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Krabby: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Krabby: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [99/1025] Fetching card for Kingler (#99)...
+  Error fetching card for Kingler: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kingler: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kingler: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [100/1025] Fetching card for Voltorb (#100)...
+  Error fetching card for Voltorb: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Voltorb: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Voltorb: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [101/1025] Fetching card for Electrode (#101)...
+  Error fetching card for Electrode: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Electrode: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Electrode: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [102/1025] Fetching card for Exeggcute (#102)...
+  Error fetching card for Exeggcute: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Exeggcute: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Exeggcute (Plasma Blast)
+  [103/1025] Fetching card for Exeggutor (#103)...
+  Error fetching card for Exeggutor: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Exeggutor: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Exeggutor: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [104/1025] Fetching card for Cubone (#104)...
+  Error fetching card for Cubone: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Cubone: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Cubone: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [105/1025] Fetching card for Marowak (#105)...
+  Error fetching card for Marowak: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Marowak: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [106/1025] Fetching card for Hitmonlee (#106)...
+    ✗ No card found
+  [107/1025] Fetching card for Hitmonchan (#107)...
+    ✗ No card found
+  [108/1025] Fetching card for Lickitung (#108)...
+    ✗ No card found
+  [109/1025] Fetching card for Koffing (#109)...
+    ✗ No card found
+  [110/1025] Fetching card for Weezing (#110)...
+    ✓ Found: Dark Weezing (Team Rocket)
+  [111/1025] Fetching card for Rhyhorn (#111)...
+  Error fetching card for Rhyhorn: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Rhyhorn: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Rhyhorn: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [112/1025] Fetching card for Rhydon (#112)...
+    ✓ Found: Brock's Rhydon (Gym Heroes)
+  [113/1025] Fetching card for Chansey (#113)...
+  Error fetching card for Chansey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Chansey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Chansey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [114/1025] Fetching card for Tangela (#114)...
+  Error fetching card for Tangela: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Tangela: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Tangela: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [115/1025] Fetching card for Kangaskhan (#115)...
+  Error fetching card for Kangaskhan: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kangaskhan: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kangaskhan: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [116/1025] Fetching card for Horsea (#116)...
+  Error fetching card for Horsea: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Horsea: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Horsea: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [117/1025] Fetching card for Seadra (#117)...
+  Error fetching card for Seadra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Seadra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Seadra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [118/1025] Fetching card for Goldeen (#118)...
+  Error fetching card for Goldeen: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Goldeen: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Goldeen: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [119/1025] Fetching card for Seaking (#119)...
+    ✗ No card found
+  [120/1025] Fetching card for Staryu (#120)...
+  Error fetching card for Staryu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [121/1025] Fetching card for Starmie (#121)...
+  Error fetching card for Starmie: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Starmie: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Starmie: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [122/1025] Fetching card for Mr. Mime (#122)...
+  Error fetching card for Mr. Mime: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mr. Mime: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mr. Mime: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [123/1025] Fetching card for Scyther (#123)...
+  Error fetching card for Scyther: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Scyther: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Rocket's Scyther (Gym Heroes)
+  [124/1025] Fetching card for Jynx (#124)...
+  Error fetching card for Jynx: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Jynx: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Jynx: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [125/1025] Fetching card for Electabuzz (#125)...
+  Error fetching card for Electabuzz: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Electabuzz: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Electabuzz: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [126/1025] Fetching card for Magmar (#126)...
+  Error fetching card for Magmar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magmar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magmar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [127/1025] Fetching card for Pinsir (#127)...
+  Error fetching card for Pinsir: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pinsir: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pinsir: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [128/1025] Fetching card for Tauros (#128)...
+  Error fetching card for Tauros: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Tauros: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Tauros: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [129/1025] Fetching card for Magikarp (#129)...
+  Error fetching card for Magikarp: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magikarp: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magikarp: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [130/1025] Fetching card for Gyarados (#130)...
+  Error fetching card for Gyarados: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Gyarados ex (Scarlet & Violet)
+  [131/1025] Fetching card for Lapras (#131)...
+  Error fetching card for Lapras: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lapras: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lapras: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [132/1025] Fetching card for Ditto (#132)...
+  Error fetching card for Ditto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ditto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ditto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [133/1025] Fetching card for Eevee (#133)...
+  Error fetching card for Eevee: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Eevee: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Eevee: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [134/1025] Fetching card for Vaporeon (#134)...
+  Error fetching card for Vaporeon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vaporeon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vaporeon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [135/1025] Fetching card for Jolteon (#135)...
+  Error fetching card for Jolteon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Jolteon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Jolteon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [136/1025] Fetching card for Flareon (#136)...
+  Error fetching card for Flareon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Flareon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Flareon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [137/1025] Fetching card for Porygon (#137)...
+  Error fetching card for Porygon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Porygon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Porygon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [138/1025] Fetching card for Omanyte (#138)...
+  Error fetching card for Omanyte: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Omanyte: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Omanyte: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [139/1025] Fetching card for Omastar (#139)...
+  Error fetching card for Omastar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Omastar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Omastar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [140/1025] Fetching card for Kabuto (#140)...
+  Error fetching card for Kabuto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kabuto: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [141/1025] Fetching card for Kabutops (#141)...
+    ✗ No card found
+  [142/1025] Fetching card for Aerodactyl (#142)...
+    ✗ No card found
+  [143/1025] Fetching card for Snorlax (#143)...
+    ✗ No card found
+  [144/1025] Fetching card for Articuno (#144)...
+    ✗ No card found
+  [145/1025] Fetching card for Zapdos (#145)...
+    ✗ No card found
+  [146/1025] Fetching card for Moltres (#146)...
+    ✗ No card found
+  [147/1025] Fetching card for Dratini (#147)...
+    ✗ No card found
+  [148/1025] Fetching card for Dragonair (#148)...
+    ✗ No card found
+  [149/1025] Fetching card for Dragonite (#149)...
+    ✗ No card found
+  [150/1025] Fetching card for Mewtwo (#150)...
+    ✗ No card found
+  [151/1025] Fetching card for Mew (#151)...
+    ✗ No card found
+  [152/1025] Fetching card for Chikorita (#152)...
+    ✗ No card found
+  [153/1025] Fetching card for Bayleef (#153)...
+    ✗ No card found
+  [154/1025] Fetching card for Meganium (#154)...
+    ✗ No card found
+  [155/1025] Fetching card for Cyndaquil (#155)...
+    ✗ No card found
+  [156/1025] Fetching card for Quilava (#156)...
+    ✗ No card found
+  [157/1025] Fetching card for Typhlosion (#157)...
+    ✗ No card found
+  [158/1025] Fetching card for Totodile (#158)...
+    ✓ Found: Totodile (Phantom Forces)
+  [159/1025] Fetching card for Croconaw (#159)...
+  Error fetching card for Croconaw: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Croconaw: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Croconaw: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [160/1025] Fetching card for Feraligatr (#160)...
+  Error fetching card for Feraligatr: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Feraligatr: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Feraligatr: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [161/1025] Fetching card for Sentret (#161)...
+    ✗ No card found
+  [162/1025] Fetching card for Furret (#162)...
+    ✗ No card found
+  [163/1025] Fetching card for Hoothoot (#163)...
+    ✗ No card found
+  [164/1025] Fetching card for Noctowl (#164)...
+    ✗ No card found
+  [165/1025] Fetching card for Ledyba (#165)...
+    ✗ No card found
+  [166/1025] Fetching card for Ledian (#166)...
+    ✗ No card found
+  [167/1025] Fetching card for Spinarak (#167)...
+    ✗ No card found
+  [168/1025] Fetching card for Ariados (#168)...
+    ✗ No card found
+  [169/1025] Fetching card for Crobat (#169)...
+    ✗ No card found
+  [170/1025] Fetching card for Chinchou (#170)...
+    ✗ No card found
+  [171/1025] Fetching card for Lanturn (#171)...
+    ✗ No card found
+  [172/1025] Fetching card for Pichu (#172)...
+    ✗ No card found
+  [173/1025] Fetching card for Cleffa (#173)...
+    ✗ No card found
+  [174/1025] Fetching card for Igglybuff (#174)...
+    ✗ No card found
+  [175/1025] Fetching card for Togepi (#175)...
+    ✗ No card found
+  [176/1025] Fetching card for Togetic (#176)...
+    ✗ No card found
+  [177/1025] Fetching card for Natu (#177)...
+    ✗ No card found
+  [178/1025] Fetching card for Xatu (#178)...
+  Error fetching card for Xatu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Xatu: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [179/1025] Fetching card for Mareep (#179)...
+  Error fetching card for Mareep: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mareep: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mareep: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [180/1025] Fetching card for Flaaffy (#180)...
+  Error fetching card for Flaaffy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Flaaffy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Flaaffy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [181/1025] Fetching card for Ampharos (#181)...
+  Error fetching card for Ampharos: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ampharos: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ampharos: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [182/1025] Fetching card for Bellossom (#182)...
+  Error fetching card for Bellossom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Bellossom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Bellossom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [183/1025] Fetching card for Marill (#183)...
+  Error fetching card for Marill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Marill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Marill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [184/1025] Fetching card for Azumarill (#184)...
+  Error fetching card for Azumarill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Azumarill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Azumarill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [185/1025] Fetching card for Sudowoodo (#185)...
+    ✗ No card found
+  [186/1025] Fetching card for Politoed (#186)...
+    ✗ No card found
+  [187/1025] Fetching card for Hoppip (#187)...
+    ✗ No card found
+  [188/1025] Fetching card for Skiploom (#188)...
+    ✗ No card found
+  [189/1025] Fetching card for Jumpluff (#189)...
+    ✓ Found: Jumpluff (HeartGold & SoulSilver)
+  [190/1025] Fetching card for Aipom (#190)...
+  Error fetching card for Aipom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Aipom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Aipom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [191/1025] Fetching card for Sunkern (#191)...
+  Error fetching card for Sunkern: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sunkern: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sunkern: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [192/1025] Fetching card for Sunflora (#192)...
+  Error fetching card for Sunflora: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sunflora: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sunflora: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [193/1025] Fetching card for Yanma (#193)...
+  Error fetching card for Yanma: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Yanma: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Yanma: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [194/1025] Fetching card for Wooper (#194)...
+  Error fetching card for Wooper: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Wooper (Hidden Fates Shiny Vault)
+  [195/1025] Fetching card for Quagsire (#195)...
+    ✓ Found: Quagsire (HeartGold & SoulSilver)
+  [196/1025] Fetching card for Espeon (#196)...
+  Error fetching card for Espeon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Espeon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Espeon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [197/1025] Fetching card for Umbreon (#197)...
+  Error fetching card for Umbreon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Umbreon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Umbreon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [198/1025] Fetching card for Murkrow (#198)...
+    ✓ Found: Murkrow (Neo Genesis)
+  [199/1025] Fetching card for Slowking (#199)...
+  Error fetching card for Slowking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slowking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slowking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [200/1025] Fetching card for Misdreavus (#200)...
+  Error fetching card for Misdreavus: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Misdreavus: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Misdreavus: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [201/1025] Fetching card for Unown (#201)...
+  Error fetching card for Unown: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Unown: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Unown: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [202/1025] Fetching card for Wobbuffet (#202)...
+  Error fetching card for Wobbuffet: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wobbuffet: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wobbuffet: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [203/1025] Fetching card for Girafarig (#203)...
+  Error fetching card for Girafarig: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Girafarig: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [204/1025] Fetching card for Pineco (#204)...
+    ✓ Found: Pineco (Paldean Fates)
+  [205/1025] Fetching card for Forretress (#205)...
+    ✓ Found: Forretress ex (Paldea Evolved)
+  [206/1025] Fetching card for Dunsparce (#206)...
+  Error fetching card for Dunsparce: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dunsparce: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Dunsparce: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [207/1025] Fetching card for Gligar (#207)...
+  Error fetching card for Gligar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gligar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gligar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [208/1025] Fetching card for Steelix (#208)...
+  Error fetching card for Steelix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Steelix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Steelix: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [209/1025] Fetching card for Snubbull (#209)...
+  Error fetching card for Snubbull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Snubbull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Snubbull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [210/1025] Fetching card for Granbull (#210)...
+  Error fetching card for Granbull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Granbull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Granbull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [211/1025] Fetching card for Qwilfish (#211)...
+  Error fetching card for Qwilfish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Qwilfish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Qwilfish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [212/1025] Fetching card for Scizor (#212)...
+  Error fetching card for Scizor: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Scizor: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Scizor: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [213/1025] Fetching card for Shuckle (#213)...
+  Error fetching card for Shuckle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shuckle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shuckle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [214/1025] Fetching card for Heracross (#214)...
+  Error fetching card for Heracross: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Heracross: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Heracross: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [215/1025] Fetching card for Sneasel (#215)...
+  Error fetching card for Sneasel: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sneasel: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sneasel: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [216/1025] Fetching card for Teddiursa (#216)...
+  Error fetching card for Teddiursa: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [217/1025] Fetching card for Ursaring (#217)...
+    ✗ No card found
+  [218/1025] Fetching card for Slugma (#218)...
+    ✗ No card found
+  [219/1025] Fetching card for Magcargo (#219)...
+    ✗ No card found
+  [220/1025] Fetching card for Swinub (#220)...
+    ✗ No card found
+  [221/1025] Fetching card for Piloswine (#221)...
+    ✗ No card found
+  [222/1025] Fetching card for Corsola (#222)...
+    ✗ No card found
+  [223/1025] Fetching card for Remoraid (#223)...
+    ✗ No card found
+  [224/1025] Fetching card for Octillery (#224)...
+    ✗ No card found
+  [225/1025] Fetching card for Delibird (#225)...
+    ✗ No card found
+  [226/1025] Fetching card for Mantine (#226)...
+    ✗ No card found
+  [227/1025] Fetching card for Skarmory (#227)...
+  Error fetching card for Skarmory: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Skarmory: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Skarmory: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [228/1025] Fetching card for Houndour (#228)...
+  Error fetching card for Houndour: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Houndour: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Houndour: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [229/1025] Fetching card for Houndoom (#229)...
+  Error fetching card for Houndoom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Houndoom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Houndoom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [230/1025] Fetching card for Kingdra (#230)...
+  Error fetching card for Kingdra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kingdra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kingdra: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [231/1025] Fetching card for Phanpy (#231)...
+  Error fetching card for Phanpy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Phanpy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Phanpy: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [232/1025] Fetching card for Donphan (#232)...
+  Error fetching card for Donphan: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Donphan: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Donphan: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [233/1025] Fetching card for Porygon2 (#233)...
+    ✓ Found: Dark Porygon2 (Neo Destiny)
+  [234/1025] Fetching card for Stantler (#234)...
+  Error fetching card for Stantler: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Stantler: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Stantler: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [235/1025] Fetching card for Smeargle (#235)...
+    ✓ Found: Smeargle (HS—Undaunted)
+  [236/1025] Fetching card for Tyrogue (#236)...
+    ✓ Found: Tyrogue (HeartGold & SoulSilver)
+  [237/1025] Fetching card for Hitmontop (#237)...
+  Error fetching card for Hitmontop: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Hitmontop: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Hitmontop: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [238/1025] Fetching card for Smoochum (#238)...
+  Error fetching card for Smoochum: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Smoochum: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Smoochum: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [239/1025] Fetching card for Elekid (#239)...
+  Error fetching card for Elekid: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Elekid: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Elekid: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [240/1025] Fetching card for Magby (#240)...
+  Error fetching card for Magby: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magby: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Magby: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [241/1025] Fetching card for Miltank (#241)...
+  Error fetching card for Miltank: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Miltank: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Miltank: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [242/1025] Fetching card for Blissey (#242)...
+  Error fetching card for Blissey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Blissey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Blissey: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [243/1025] Fetching card for Raikou (#243)...
+  Error fetching card for Raikou: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Raikou: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Raikou: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [244/1025] Fetching card for Entei (#244)...
+  Error fetching card for Entei: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Entei: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Entei: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [245/1025] Fetching card for Suicune (#245)...
+  Error fetching card for Suicune: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Suicune: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Suicune: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [246/1025] Fetching card for Larvitar (#246)...
+  Error fetching card for Larvitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Larvitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Larvitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [247/1025] Fetching card for Pupitar (#247)...
+  Error fetching card for Pupitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pupitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Pupitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [248/1025] Fetching card for Tyranitar (#248)...
+  Error fetching card for Tyranitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Tyranitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Tyranitar: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [249/1025] Fetching card for Lugia (#249)...
+  Error fetching card for Lugia: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lugia: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lugia: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [250/1025] Fetching card for Ho Oh (#250)...
+  Error fetching card for Ho Oh: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ho Oh: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ho Oh: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [251/1025] Fetching card for Celebi (#251)...
+  Error fetching card for Celebi: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Celebi: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Celebi: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [252/1025] Fetching card for Treecko (#252)...
+  Error fetching card for Treecko: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Treecko: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Treecko: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [253/1025] Fetching card for Grovyle (#253)...
+  Error fetching card for Grovyle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Grovyle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Grovyle: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [254/1025] Fetching card for Sceptile (#254)...
+  Error fetching card for Sceptile: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sceptile: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sceptile: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [255/1025] Fetching card for Torchic (#255)...
+  Error fetching card for Torchic: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Torchic: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Torchic: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [256/1025] Fetching card for Combusken (#256)...
+  Error fetching card for Combusken: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Combusken: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Combusken: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [257/1025] Fetching card for Blaziken (#257)...
+  Error fetching card for Blaziken: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Blaziken: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Blaziken: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [258/1025] Fetching card for Mudkip (#258)...
+  Error fetching card for Mudkip: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mudkip: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mudkip: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [259/1025] Fetching card for Marshtomp (#259)...
+  Error fetching card for Marshtomp: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Marshtomp: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Marshtomp: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [260/1025] Fetching card for Swampert (#260)...
+  Error fetching card for Swampert: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Swampert: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Swampert: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [261/1025] Fetching card for Poochyena (#261)...
+  Error fetching card for Poochyena: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poochyena: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Poochyena: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [262/1025] Fetching card for Mightyena (#262)...
+  Error fetching card for Mightyena: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mightyena: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mightyena: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [263/1025] Fetching card for Zigzagoon (#263)...
+  Error fetching card for Zigzagoon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Zigzagoon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Zigzagoon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [264/1025] Fetching card for Linoone (#264)...
+  Error fetching card for Linoone: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Linoone: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Linoone: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [265/1025] Fetching card for Wurmple (#265)...
+  Error fetching card for Wurmple: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Wurmple (Dragons Exalted)
+  [266/1025] Fetching card for Silcoon (#266)...
+  Error fetching card for Silcoon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Silcoon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Silcoon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [267/1025] Fetching card for Beautifly (#267)...
+  Error fetching card for Beautifly: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Beautifly: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Beautifly: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [268/1025] Fetching card for Cascoon (#268)...
+    ✓ Found: Cascoon (Dragons Exalted)
+  [269/1025] Fetching card for Dustox (#269)...
+    ✓ Found: Dustox (Ruby & Sapphire)
+  [270/1025] Fetching card for Lotad (#270)...
+  Error fetching card for Lotad: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lotad: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lotad: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [271/1025] Fetching card for Lombre (#271)...
+  Error fetching card for Lombre: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lombre: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [272/1025] Fetching card for Ludicolo (#272)...
+    ✗ No card found
+  [273/1025] Fetching card for Seedot (#273)...
+    ✗ No card found
+  [274/1025] Fetching card for Nuzleaf (#274)...
+    ✗ No card found
+  [275/1025] Fetching card for Shiftry (#275)...
+  Error fetching card for Shiftry: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [276/1025] Fetching card for Taillow (#276)...
+  Error fetching card for Taillow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Taillow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Taillow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [277/1025] Fetching card for Swellow (#277)...
+  Error fetching card for Swellow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Swellow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Swellow: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [278/1025] Fetching card for Wingull (#278)...
+  Error fetching card for Wingull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wingull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Wingull: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [279/1025] Fetching card for Pelipper (#279)...
+  Error fetching card for Pelipper: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✓ Found: Pelipper (Deoxys)
+  [280/1025] Fetching card for Ralts (#280)...
+  Error fetching card for Ralts: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [281/1025] Fetching card for Kirlia (#281)...
+  Error fetching card for Kirlia: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Kirlia: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [282/1025] Fetching card for Gardevoir (#282)...
+  Error fetching card for Gardevoir: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gardevoir: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Gardevoir: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [283/1025] Fetching card for Surskit (#283)...
+  Error fetching card for Surskit: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Surskit: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Surskit: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [284/1025] Fetching card for Masquerain (#284)...
+  Error fetching card for Masquerain: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Masquerain: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Masquerain: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [285/1025] Fetching card for Shroomish (#285)...
+  Error fetching card for Shroomish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shroomish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shroomish: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [286/1025] Fetching card for Breloom (#286)...
+  Error fetching card for Breloom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Breloom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Breloom: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [287/1025] Fetching card for Slakoth (#287)...
+  Error fetching card for Slakoth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slakoth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slakoth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [288/1025] Fetching card for Vigoroth (#288)...
+  Error fetching card for Vigoroth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vigoroth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Vigoroth: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [289/1025] Fetching card for Slaking (#289)...
+  Error fetching card for Slaking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slaking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Slaking: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [290/1025] Fetching card for Nincada (#290)...
+  Error fetching card for Nincada: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nincada: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nincada: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [291/1025] Fetching card for Ninjask (#291)...
+  Error fetching card for Ninjask: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ninjask: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Ninjask: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [292/1025] Fetching card for Shedinja (#292)...
+  Error fetching card for Shedinja: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shedinja: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Shedinja: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [293/1025] Fetching card for Whismur (#293)...
+  Error fetching card for Whismur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Whismur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Whismur: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [294/1025] Fetching card for Loudred (#294)...
+  Error fetching card for Loudred: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Loudred: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Loudred: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [295/1025] Fetching card for Exploud (#295)...
+  Error fetching card for Exploud: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Exploud: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Exploud: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [296/1025] Fetching card for Makuhita (#296)...
+  Error fetching card for Makuhita: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Makuhita: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Makuhita: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [297/1025] Fetching card for Hariyama (#297)...
+  Error fetching card for Hariyama: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Hariyama: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Hariyama: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [298/1025] Fetching card for Azurill (#298)...
+  Error fetching card for Azurill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Azurill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Azurill: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [299/1025] Fetching card for Nosepass (#299)...
+  Error fetching card for Nosepass: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nosepass: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Nosepass: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [300/1025] Fetching card for Skitty (#300)...
+  Error fetching card for Skitty: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Skitty: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Skitty: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [301/1025] Fetching card for Delcatty (#301)...
+  Error fetching card for Delcatty: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Delcatty: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Delcatty: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [302/1025] Fetching card for Sableye (#302)...
+  Error fetching card for Sableye: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sableye: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Sableye: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [303/1025] Fetching card for Mawile (#303)...
+  Error fetching card for Mawile: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mawile: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Mawile: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [304/1025] Fetching card for Aron (#304)...
+  Error fetching card for Aron: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Aron: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Aron: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [305/1025] Fetching card for Lairon (#305)...
+  Error fetching card for Lairon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lairon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Lairon: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [306/1025] Fetching card for Aggron (#306)...
+  Error fetching card for Aggron: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Aggron: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Aggron: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [307/1025] Fetching card for Meditite (#307)...
+  Error fetching card for Meditite: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Meditite: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Meditite: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [308/1025] Fetching card for Medicham (#308)...
+  Error fetching card for Medicham: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Medicham: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Medicham: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [309/1025] Fetching card for Electrike (#309)...
+  Error fetching card for Electrike: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Electrike: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Electrike: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+    ✗ No card found
+  [310/1025] Fetching card for Manectric (#310)...
+  Error fetching card for Manectric: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
+  Error fetching card for Manectric: HTTPSConnectionPool(host='api.pokemontcg.io', port=443): Read timed out. (read timeout=10)
