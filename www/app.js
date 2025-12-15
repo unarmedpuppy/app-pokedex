@@ -1,8 +1,22 @@
+// Load Pokemon data and card data
+let pokemonList = [];
+let cardData = {};
+
 // Load Pokemon data and render grid
 async function loadPokemon() {
     try {
-        const response = await fetch('/data/pokemon.json');
-        const pokemonList = await response.json();
+        // Load Pokemon data
+        const pokemonResponse = await fetch('/data/pokemon.json');
+        pokemonList = await pokemonResponse.json();
+        
+        // Load card data (if available)
+        try {
+            const cardResponse = await fetch('/data/cards.json');
+            cardData = await cardResponse.json();
+        } catch (error) {
+            console.warn('Card data not available:', error);
+            cardData = {};
+        }
         
         const grid = document.getElementById('pokemon-grid');
         
@@ -20,6 +34,14 @@ async function loadPokemon() {
 function createPokemonCard(pokemon) {
     const card = document.createElement('div');
     card.className = 'pokemon-card';
+    card.dataset.pokemonNumber = pokemon.number;
+    
+    const inner = document.createElement('div');
+    inner.className = 'pokemon-card-inner';
+    
+    // Front side (sprite)
+    const front = document.createElement('div');
+    front.className = 'pokemon-card-front';
     
     const number = document.createElement('div');
     number.className = 'pokemon-number';
@@ -49,9 +71,39 @@ function createPokemonCard(pokemon) {
     name.className = 'pokemon-name';
     name.textContent = pokemon.name;
     
-    card.appendChild(number);
-    card.appendChild(sprite);
-    card.appendChild(name);
+    front.appendChild(number);
+    front.appendChild(sprite);
+    front.appendChild(name);
+    
+    // Back side (card image)
+    const back = document.createElement('div');
+    back.className = 'pokemon-card-back';
+    
+    const cardImage = document.createElement('img');
+    cardImage.className = 'pokemon-card-image';
+    cardImage.alt = `${pokemon.name} TCG Card`;
+    
+    // Get card image URL if available
+    const cardInfo = cardData[pokemon.number];
+    if (cardInfo && cardInfo.card_image) {
+        cardImage.src = cardInfo.card_image;
+        cardImage.onerror = function() {
+            back.innerHTML = `<div style="color: #666; padding: 20px;">No card image available<br>for ${pokemon.name}</div>`;
+        };
+    } else {
+        back.innerHTML = `<div style="color: #666; padding: 20px;">No card data available<br>for ${pokemon.name}</div>`;
+    }
+    
+    back.appendChild(cardImage);
+    
+    inner.appendChild(front);
+    inner.appendChild(back);
+    card.appendChild(inner);
+    
+    // Add click handler to flip card
+    card.addEventListener('click', function() {
+        card.classList.toggle('flipped');
+    });
     
     return card;
 }
