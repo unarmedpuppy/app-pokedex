@@ -2,70 +2,73 @@
 
 A minimalist web application displaying all Pokémon in National Pokédex order with their sprites, names, and numbers.
 
-## Access
-
-- **URL**: https://pokedex.server.unarmedpuppy.com
-- **Port**: 8103 (direct access, optional)
-- **Status**: ✅ ACTIVE
-
 ## Features
 
-- Complete National Pokédex display
+- Complete National Pokédex display (1025 Pokémon)
 - Grid layout with responsive design
 - Pokemon sprites from Pokémon Database
 - Minimalist, clean interface
+- Card flip animation with Pokemon TCG cards
 
-## Setup
+## Quick Start
 
-### 1. Install Dependencies
+### Local Development
 
 ```bash
-cd apps/pokedex
-pip3 install -r requirements.txt
+# Build and run locally
+docker compose up --build
+
+# Access at http://localhost:8103
 ```
 
-### 2. Generate Pokemon Data and Download Sprites
-
-Run the complete setup script to fetch all Pokemon from PokeAPI and download sprites:
+### Generate/Update Pokemon Data
 
 ```bash
+# Install dependencies
+pip3 install -r requirements.txt
+
+# Run complete setup (fetches all Pokemon + sprites)
 python3 setup_pokemon_data.py
 ```
 
-This script will:
+This will:
 - Fetch all 1025 Pokemon from PokeAPI (Gen 1-9)
 - Create `data/pokemon.json` with complete Pokemon list
 - Download all sprites to `sprites/` directory
 
-**Note**: This may take 10-15 minutes to complete as it downloads 1025 sprites.
+**Note**: Initial setup takes 10-15 minutes to download all sprites.
 
-### Alternative: Quick Setup (Gen 1 only)
+## Docker Image
 
-For a quick test with just Gen 1 Pokemon (151 Pokemon):
-
-```bash
-python3 generate_pokemon_list.py
-python3 download_sprites.py
-```
-
-### 3. Build and Run
+This app is published to a private registry:
 
 ```bash
-docker compose build
-docker compose up -d
+# Pull the image
+docker pull registry.server.unarmedpuppy.com/pokedex:latest
+
+# Run it
+docker run -p 8103:80 registry.server.unarmedpuppy.com/pokedex:latest
 ```
 
-The app will be available at:
-- https://pokedex.server.unarmedpuppy.com (via Traefik)
-- http://localhost:8095 (direct access)
+### Building and Publishing
+
+Images are automatically built and pushed via GitHub Actions when you create a tag:
+
+```bash
+git tag v1.0.0
+git push --tags
+```
+
+Or manually trigger a build via the Actions tab.
 
 ## Data Files
 
 - `data/pokemon.json` - Complete list of all Pokemon with numbers and names
 - `sprites/` - Directory containing all Pokemon sprite images
+- `www/` - Web frontend (HTML, CSS, JS)
 
 ## References
 
 - [Serebii National Pokédex](https://www.serebii.net/pokemon/nationalpokedex.shtml)
 - [Pokémon Database Sprites](https://img.pokemondb.net/sprites/scarlet-violet/normal/)
-
+- [PokeAPI](https://pokeapi.co/)

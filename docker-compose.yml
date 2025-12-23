@@ -1,47 +1,9 @@
-x-enabled: true
+# Local development docker-compose
+# For production deployment, see the home-server repo
 
 services:
   pokedex:
     build: .
     container_name: pokedex
-    restart: unless-stopped
     ports:
       - "8103:80"
-    networks:
-      - my-network
-    labels:
-      # Traefik labels
-      - "traefik.enable=true"
-      # HTTPS redirect
-      - "traefik.http.middlewares.pokedex-redirect.redirectscheme.scheme=https"
-      - "traefik.http.routers.pokedex-redirect.middlewares=pokedex-redirect"
-      - "traefik.http.routers.pokedex-redirect.rule=Host(`pokedex.server.unarmedpuppy.com`)"
-      - "traefik.http.routers.pokedex-redirect.entrypoints=web"
-      # Local network access (no auth) - highest priority
-      - "traefik.http.routers.pokedex-local.rule=Host(`pokedex.server.unarmedpuppy.com`) && ClientIP(`192.168.86.0/24`)"
-      - "traefik.http.routers.pokedex-local.priority=100"
-      - "traefik.http.routers.pokedex-local.entrypoints=websecure"
-      - "traefik.http.routers.pokedex-local.tls.certresolver=myresolver"
-      - "traefik.http.routers.pokedex-local.service=pokedex"
-      # External access (requires auth) - lowest priority
-      - "traefik.http.routers.pokedex.rule=Host(`pokedex.server.unarmedpuppy.com`)"
-      - "traefik.http.routers.pokedex.priority=1"
-      - "traefik.http.routers.pokedex.entrypoints=websecure"
-      - "traefik.http.routers.pokedex.tls.certresolver=myresolver"
-      - "traefik.http.routers.pokedex.middlewares=pokedex-auth"
-      - "traefik.http.routers.pokedex.service=pokedex"
-      # Service and auth middleware
-      - "traefik.http.services.pokedex.loadbalancer.server.port=80"
-      - "traefik.http.middlewares.pokedex-auth.basicauth.users=unarmedpuppy:$$apr1$$yE.A6vVX$$p7.fpGKw5Unp0UW6H/2c.0"
-      - "traefik.http.middlewares.pokedex-auth.basicauth.realm=Pokédex"
-      # Homepage labels
-      - "homepage.group=Gaming"
-      - "homepage.name=Pokédex"
-      - "homepage.icon=si-nintendo"
-      - "homepage.href=https://pokedex.server.unarmedpuppy.com"
-      - "homepage.description=National Pokédex - Complete collection of all Pokémon"
-
-networks:
-  my-network:
-    external: true
-
