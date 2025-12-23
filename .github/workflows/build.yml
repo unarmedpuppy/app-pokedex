@@ -18,6 +18,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Homelab
     steps:
       - uses: actions/checkout@v4
 
