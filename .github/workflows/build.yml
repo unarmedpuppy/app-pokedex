@@ -12,8 +12,8 @@ on:
         default: 'latest'
 
 env:
-  REGISTRY: registry.server.unarmedpuppy.com
-  IMAGE_NAME: pokedex
+  REGISTRY: harbor.server.unarmedpuppy.com
+  IMAGE_NAME: library/pokedex
 
 jobs:
   build:
