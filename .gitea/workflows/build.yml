@@ -2,61 +2,14 @@ name: Build and Deploy
 
 on:
   push:
-    branches:
-      - main
-      - master
-    tags:
-      - 'v*'
+    branches: [main, master]
+    tags: ['v*']
   workflow_dispatch:
-
-env:
-  REGISTRY: harbor.server.unarmedpuppy.com
-  IMAGE_NAME: library/pokedex
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set version tag
-        id: version
-        run: |
-          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
-            echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
-            echo "IS_TAG=true" >> $GITHUB_OUTPUT
-          else
-            echo "VERSION=latest" >> $GITHUB_OUTPUT
-            echo "IS_TAG=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Login to Harbor
-        run: |
-          echo '${{ secrets.HARBOR_PASSWORD }}' | docker login ${{ env.REGISTRY }} -u '${{ secrets.HARBOR_USERNAME }}' --password-stdin
-
-      - name: Build image
-        run: |
-          docker build -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.VERSION }} .
-          docker tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.VERSION }} ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-
-      - name: Push image
-        run: |
-          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.VERSION }}
-          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-
-      - name: Deploy to server
-        if: steps.version.outputs.IS_TAG == 'true'
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.DEPLOY_HOST }}
-          port: ${{ secrets.DEPLOY_PORT }}
-          username: ${{ secrets.DEPLOY_USER }}
-          key: ${{ secrets.DEPLOY_SSH_KEY }}
-          script: |
-            cd /home/unarmedpuppy/server
-            sudo git pull origin main
-            cd apps/pokedex
-            sudo docker compose pull
-            sudo docker compose up -d
-            sudo docker image prune -f
+    uses: homelab/workflows/.gitea/workflows/docker-build.yml@main
+    with:
+      image_name: library/pokedex
+      app_path: apps/pokedex
+    secrets: inherit
