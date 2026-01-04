@@ -1,0 +1,1 @@
+../../node_modules/@jenquist/shared-agent-skills/skills/beads-task-management/SKILL.md

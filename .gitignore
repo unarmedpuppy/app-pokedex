@@ -22,3 +22,7 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# npm
+node_modules/
+package-lock.json
