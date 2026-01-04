@@ -28,7 +28,7 @@ pokedex/
 ├── www/                       # Web frontend
 │   ├── index.html
 │   ├── style.css
-│   └── script.js
+│   └── app.js
 ├── data/
 │   └── pokemon.json           # Pokemon data (name, number)
 ├── sprites/                   # Downloaded sprite images
@@ -72,13 +72,13 @@ docker compose build --no-cache && docker compose up -d
 `data/pokemon.json`:
 ```json
 [
-  {"number": 1, "name": "Bulbasaur"},
-  {"number": 2, "name": "Ivysaur"},
+  {"number": 1, "name": "Bulbasaur", "sprite_name": "bulbasaur"},
+  {"number": 2, "name": "Ivysaur", "sprite_name": "ivysaur"},
   ...
 ]
 ```
 
-Sprites stored as: `sprites/{number}.png` (e.g., `sprites/25.png` for Pikachu)
+Sprites stored as: `sprites/{padded_number}_{sprite_name}.png` (e.g., `sprites/0025_pikachu.png`)
 
 ## Deployment
 
