@@ -17,6 +17,7 @@ import sys
 import sqlite3
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
 
 import anthropic
 
@@ -81,7 +82,7 @@ def encode_image(path: Path) -> str:
         return base64.standard_b64encode(f.read()).decode("utf-8")
 
 
-def extract_metadata(image_path: Path) -> dict | None:
+def extract_metadata(image_path: Path) -> Optional[dict]:
     """Call Claude vision to extract Pokemon metadata from a detail screenshot."""
     try:
         b64 = encode_image(image_path)
