@@ -68,7 +68,7 @@ TAP_TO_START_Y = 0.83
 # Approximately 5 columns. Calibrate GRID_* after phase 1 if needed.
 
 GRID_COLS       = 5
-GRID_TOP        = 0.22   # below search/filter bar
+GRID_TOP        = 0.30   # below search/filter bar (empirically: first Pokemon row ~30%)
 GRID_BOTTOM     = 0.92   # above bottom safe area
 GRID_LEFT       = 0.05
 GRID_RIGHT      = 0.95
@@ -268,7 +268,7 @@ def navigate_to_pokemon_list(driver, screen: Screen):
 
 # ── Phase 2: Capture list pages ───────────────────────────────────────────────
 
-def capture_list_pages(driver, screen: Screen):
+def capture_list_pages(driver, screen: Screen, max_pages: int = 200):
     """
     Scroll through the full 'All Pokémon' list, capturing a screenshot of each
     visible page. Stops when two consecutive pages produce identical screenshots
@@ -285,9 +285,7 @@ def capture_list_pages(driver, screen: Screen):
 
     prev_hash = None
     page_num = start_page
-    MAX_PAGES = 200  # ~2771 pokemon / ~20 per page ≈ 140 pages; 200 is safe upper bound
-
-    for _ in range(MAX_PAGES):
+    for _ in range(max_pages):
         path = ss(driver, IMAGES_DIR / "pages" / f"page_{page_num:04d}.png")
         curr_hash = screenshot_hash(path)
 
@@ -323,31 +321,58 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     Tap a grid slot, screenshot the detail view, go back.
     position = global sequential index for file naming.
     Returns detail screenshot path or None if slot was empty.
+
+    Uses screenshot comparison (not page_source) — Unity keeps page_source constant.
     """
     x, y = screen.slot_pt(col, row)
-    src_before = page_source(driver)
+
+    # Snapshot before tap
+    before = IMAGES_DIR / "detail" / "_before.png"
+    ss(driver, before)
+    hash_before = screenshot_hash(before)
 
     tap(driver, x, y)
     time.sleep(WAIT_DETAIL)
 
-    src_after = page_source(driver)
-    if src_after == src_before:
-        return None  # empty slot or no response
+    # Snapshot after tap
+    after = IMAGES_DIR / "detail" / "_after.png"
+    ss(driver, after)
+    hash_after = screenshot_hash(after)
 
-    path = ss(driver, IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}.png")
+    if hash_after == hash_before:
+        # Screen didn't change — empty slot
+        return None
 
-    # Try to reach judge/stats sub-screen for IV data
-    # In HOME's detail view, the judge button is typically bottom-right
-    pre_judge_src = src_after
+    # We're on a detail screen — save it
+    path = IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}.png"
+    after.rename(path)
+    print(f"  [ss] detail/{path.name}")
+
+    # Try to open judge/stats sub-screen (bottom-right of detail view)
+    pre_judge = IMAGES_DIR / "detail" / "_pre_judge.png"
+    ss(driver, pre_judge)
+    hash_pre_judge = screenshot_hash(pre_judge)
+
     tap(driver, *screen.pt(0.80, 0.88))
     time.sleep(WAIT_TAP)
-    if page_source(driver) != pre_judge_src:
-        ss(driver, IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}_judge.png")
-        # Back out of judge screen (top-left back arrow)
+
+    post_judge = IMAGES_DIR / "detail" / "_post_judge.png"
+    ss(driver, post_judge)
+    if screenshot_hash(post_judge) != hash_pre_judge:
+        judge_path = IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}_judge.png"
+        post_judge.rename(judge_path)
+        print(f"  [ss] detail/{judge_path.name}")
+        # Back out of judge screen
         tap(driver, *screen.pt(0.07, 0.06))
         time.sleep(WAIT_BACK)
+    else:
+        post_judge.unlink(missing_ok=True)
 
-    # Back to list (top-left back arrow)
+    # Clean up temp files
+    for f in [before, pre_judge]:
+        f.unlink(missing_ok=True)
+
+    # Back to list
     tap(driver, *screen.pt(0.07, 0.06))
     time.sleep(WAIT_BACK)
 
@@ -357,7 +382,8 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
 def capture_all_pokemon(driver, screen: Screen,
                          start_page: int = 0,
                          start_col: int = 0,
-                         start_row: int = 0):
+                         start_row: int = 0,
+                         limit: Optional[int] = None):
     """
     Walk the entire All Pokémon list, tapping each slot for its detail screen.
     Scrolls down one page at a time, capturing every visible slot before scrolling.
@@ -417,6 +443,10 @@ def capture_all_pokemon(driver, screen: Screen,
                 set_state("detail_last_row",  str(row))
                 position += 1
 
+                if limit and position >= limit:
+                    print(f"\n[phase3] Reached limit of {limit}. Stopping.")
+                    return
+
         scroll_down(driver, screen)
         time.sleep(WAIT_SCROLL)
 
@@ -429,9 +459,10 @@ def capture_all_pokemon(driver, screen: Screen,
 def main():
     parser = argparse.ArgumentParser(description="Pokemon HOME capture")
     parser.add_argument("--phase",   type=int, choices=[1, 2, 3], default=1)
-    parser.add_argument("--page",    type=int, default=0, help="Resume from page N")
-    parser.add_argument("--col",     type=int, default=0, help="Resume from col N")
-    parser.add_argument("--row",     type=int, default=0, help="Resume from row N")
+    parser.add_argument("--page",    type=int, default=0,   help="Resume from page N")
+    parser.add_argument("--col",     type=int, default=0,   help="Resume from col N")
+    parser.add_argument("--row",     type=int, default=0,   help="Resume from row N")
+    parser.add_argument("--limit",   type=int, default=None, help="Max pages to capture (phase 2)")
     parser.add_argument("--inspect", action="store_true",
                         help="Screenshot + page source dump, then exit")
     args = parser.parse_args()
@@ -466,7 +497,7 @@ def main():
         elif args.phase == 2:
             print("=== Phase 2: List page capture ===")
             navigate_to_pokemon_list(driver, screen)
-            capture_list_pages(driver, screen)
+            capture_list_pages(driver, screen, max_pages=args.limit or 200)
             print("\nRun phase 3:")
             print("  python capture.py --phase 3")
 
@@ -476,7 +507,8 @@ def main():
             capture_all_pokemon(driver, screen,
                                  start_page=args.page,
                                  start_col=args.col,
-                                 start_row=args.row)
+                                 start_row=args.row,
+                                 limit=args.limit)
 
     finally:
         driver.quit()
