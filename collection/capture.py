@@ -326,7 +326,7 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     """
     x, y = screen.slot_pt(col, row)
 
-    # Snapshot before tap
+    # Snapshot before tap (list state reference for empty slot detection)
     before = IMAGES_DIR / "detail" / "_before.png"
     ss(driver, before)
     hash_before = screenshot_hash(before)
@@ -348,34 +348,12 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     after.rename(path)
     print(f"  [ss] detail/{path.name}")
 
-    # Try to open judge/stats sub-screen (bottom-right of detail view)
-    pre_judge = IMAGES_DIR / "detail" / "_pre_judge.png"
-    ss(driver, pre_judge)
-    hash_pre_judge = screenshot_hash(pre_judge)
-
-    tap(driver, *screen.pt(0.80, 0.88))
-    time.sleep(WAIT_TAP)
-
-    post_judge = IMAGES_DIR / "detail" / "_post_judge.png"
-    ss(driver, post_judge)
-    if screenshot_hash(post_judge) != hash_pre_judge:
-        judge_path = IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}_judge.png"
-        post_judge.rename(judge_path)
-        print(f"  [ss] detail/{judge_path.name}")
-        # Back out of judge screen
-        tap(driver, *screen.pt(0.07, 0.06))
-        time.sleep(WAIT_BACK)
-    else:
-        post_judge.unlink(missing_ok=True)
-
-    # Clean up temp files
-    for f in [before, pre_judge]:
-        f.unlink(missing_ok=True)
-
-    # Back to list
-    tap(driver, *screen.pt(0.07, 0.06))
+    # Close detail view via the × button (green circle, center-bottom of detail screen)
+    # Measured from screenshot: button center at y=2207/2436 (90.6% down, 3x retina image)
+    tap(driver, *screen.pt(0.50, 0.906))
     time.sleep(WAIT_BACK)
 
+    before.unlink(missing_ok=True)
     return path
 
 
