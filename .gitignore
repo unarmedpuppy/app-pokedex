@@ -7,3 +7,8 @@
 
 pokedex.sqlite
 whoosh-index
+
+# Pokemon HOME collection (local data, not committed)
+collection/images/
+collection/*.db
+collection/__pycache__/
