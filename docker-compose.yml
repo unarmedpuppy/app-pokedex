@@ -1,0 +1,10 @@
+services:
+  pokedex:
+    build: .
+    ports:
+      - "8420:8420"
+    volumes:
+      # DB and images live on the host (capture writes here, container reads)
+      - ./collection/pokemon_home.db:/app/collection/pokemon_home.db:ro
+      - ./collection/images:/app/collection/images:ro
+    restart: unless-stopped

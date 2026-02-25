@@ -353,6 +353,23 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     tap(driver, *screen.pt(0.50, 0.906))
     time.sleep(WAIT_BACK)
 
+    # Verify we're back on the list (not stuck on detail or navigated to wrong screen)
+    verify = IMAGES_DIR / "detail" / "_verify.png"
+    ss(driver, verify)
+    hash_verify = screenshot_hash(verify)
+    verify.unlink(missing_ok=True)
+
+    if hash_verify == hash_after:
+        # Still on detail screen — retry close
+        print("  [warn] close failed, retrying ×...")
+        tap(driver, *screen.pt(0.50, 0.906))
+        time.sleep(WAIT_BACK + 1.0)
+    elif hash_verify != hash_before:
+        # On a different screen (HOME menu, wrong app state) — navigate back to list
+        print("  [warn] wrong screen after close, navigating back to Pokémon list...")
+        tap(driver, *screen.pt(TAB_POKEMON_X, TAB_Y))
+        time.sleep(WAIT_TAP)
+
     before.unlink(missing_ok=True)
     return path
 

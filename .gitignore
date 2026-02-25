@@ -12,3 +12,4 @@ whoosh-index
 collection/images/
 collection/*.db
 collection/__pycache__/
+collection/ui/node_modules

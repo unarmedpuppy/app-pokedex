@@ -1,0 +1,10 @@
+collection/images/
+collection/*.db
+collection/*.db-shm
+collection/*.db-wal
+collection/ui/node_modules/
+collection/ui/dist/
+collection/__pycache__/
+**/__pycache__/
+*.pyc
+.git/
