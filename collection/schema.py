@@ -81,10 +81,16 @@ def init_db():
             game_of_origin TEXT,
             ball_type    TEXT,
 
+            -- Origin (caught info, from second detail screen)
+            date_caught  TEXT,
+            met_at_level INTEGER,
+            met_at_location TEXT,
+
             -- Files (relative to collection/)
-            box_screenshot_path    TEXT,
-            detail_screenshot_path TEXT,
-            sprite_path            TEXT,
+            box_screenshot_path     TEXT,
+            detail_screenshot_path  TEXT,
+            detail_screenshot2_path TEXT,
+            sprite_path             TEXT,
 
             -- Meta
             captured_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -101,6 +107,19 @@ def init_db():
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
     """)
+    conn.commit()
+
+    # Migrate existing DBs: add columns if they don't exist
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(pokemon)")}
+    migrations = [
+        ("date_caught",           "ALTER TABLE pokemon ADD COLUMN date_caught TEXT"),
+        ("met_at_level",          "ALTER TABLE pokemon ADD COLUMN met_at_level INTEGER"),
+        ("met_at_location",       "ALTER TABLE pokemon ADD COLUMN met_at_location TEXT"),
+        ("detail_screenshot2_path", "ALTER TABLE pokemon ADD COLUMN detail_screenshot2_path TEXT"),
+    ]
+    for col, sql in migrations:
+        if col not in existing:
+            conn.execute(sql)
     conn.commit()
     conn.close()
     print(f"DB initialized at {DB_PATH}")

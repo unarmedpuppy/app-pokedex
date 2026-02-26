@@ -316,11 +316,26 @@ def visible_rows(screen: Screen) -> int:
     return max(1, int(grid_h / cell_h))
 
 
-def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> Optional[Path]:
+def scroll_detail(driver, screen: Screen, distance: float = 0.40):
+    """Scroll down within the Pokemon detail panel to reveal caught info."""
+    x = screen.w // 2
+    y_start = int(screen.h * 0.60)
+    y_end   = int(screen.h * (0.60 - distance))
+    finger = PointerInput("touch", "finger1")
+    a = ActionBuilder(driver, mouse=finger)
+    a.pointer_action.move_to_location(x, y_start)
+    a.pointer_action.pointer_down()
+    a.pointer_action.pause(0.05)
+    a.pointer_action.move_to_location(x, y_end)
+    a.pointer_action.pause(0.1)
+    a.pointer_action.pointer_up()
+    a.perform()
+
+
+def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> Optional[tuple[Path, Optional[Path]]]:
     """
-    Tap a grid slot, screenshot the detail view, go back.
-    position = global sequential index for file naming.
-    Returns detail screenshot path or None if slot was empty.
+    Tap a grid slot, screenshot the detail view (two screenshots: top + scrolled),
+    go back. Returns (path1, path2) or None if slot was empty.
 
     Uses screenshot comparison (not page_source) — Unity keeps page_source constant.
     """
@@ -343,10 +358,26 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
         # Screen didn't change — empty slot
         return None
 
-    # We're on a detail screen — save it
-    path = IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}.png"
-    after.rename(path)
-    print(f"  [ss] detail/{path.name}")
+    # We're on a detail screen — save screenshot 1 (top: stats, moves, OT)
+    path1 = IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}.png"
+    after.rename(path1)
+    print(f"  [ss] detail/{path1.name}")
+
+    # Scroll down to reveal caught info (date, met at location/level)
+    scroll_detail(driver, screen)
+    time.sleep(0.8)
+
+    # Screenshot 2 (bottom: date caught, met at)
+    path2 = IMAGES_DIR / "detail" / f"pokemon_{position:04d}_c{col}r{row}_p2.png"
+    ss(driver, path2)
+    hash_p2 = screenshot_hash(path2)
+    if hash_p2 == screenshot_hash(path1):
+        # Scroll didn't move (e.g. content fits one screen) — discard duplicate
+        path2.unlink(missing_ok=True)
+        path2 = None
+        print("  [ss] detail: no scroll — single-screen Pokemon")
+    else:
+        print(f"  [ss] detail/{path2.name}")
 
     # Close detail view via the × button (green circle, center-bottom of detail screen)
     # Measured from screenshot: button center at y=2207/2436 (90.6% down, 3x retina image)
@@ -371,7 +402,7 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
         time.sleep(WAIT_TAP)
 
     before.unlink(missing_ok=True)
-    return path
+    return path1, path2
 
 
 def capture_all_pokemon(driver, screen: Screen,
@@ -421,15 +452,19 @@ def capture_all_pokemon(driver, screen: Screen,
             c_start = col_start if row == row_start else 0
             for col in range(c_start, GRID_COLS):
                 print(f"  p{page_num} r{row} c{col} ", end="", flush=True)
-                path = capture_slot(driver, screen, position, col, row)
+                result = capture_slot(driver, screen, position, col, row)
 
-                if path:
-                    print(f"→ {path.name}")
-                    upsert_pokemon({
+                if result:
+                    path1, path2 = result
+                    print(f"→ {path1.name}")
+                    record = {
                         "box_number": page_num,   # repurposed: page = rough box equivalent
                         "box_slot":   row * GRID_COLS + col,
-                        "detail_screenshot_path": str(path.relative_to(Path(__file__).parent)),
-                    })
+                        "detail_screenshot_path": str(path1.relative_to(Path(__file__).parent)),
+                    }
+                    if path2:
+                        record["detail_screenshot2_path"] = str(path2.relative_to(Path(__file__).parent))
+                    upsert_pokemon(record)
                 else:
                     print("→ empty/end")
 
