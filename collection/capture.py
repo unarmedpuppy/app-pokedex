@@ -332,6 +332,43 @@ def scroll_detail(driver, screen: Screen, distance: float = 0.40):
     a.perform()
 
 
+CLOSE_BTN_Y   = 0.925   # × button measured from detail screenshots (~92.5% down)
+DIALOG_YES_X  = 0.73    # "Yes" button in Download check dialog
+DIALOG_YES_Y  = 0.73
+
+
+def dismiss_download_dialog(driver) -> bool:
+    """
+    Dismiss the Pokemon HOME 'Download check' native iOS dialog if present.
+    Returns True if a dialog was found and dismissed.
+    """
+    for label in ["Yes", "OK", "Allow"]:
+        try:
+            driver.execute_script("mobile: alert", {"action": "accept", "buttonLabel": label})
+            print(f"  [dialog] dismissed download dialog ('{label}')")
+            time.sleep(2.0)
+            return True
+        except Exception:
+            pass
+    return False
+
+
+def recover_to_list(driver, screen: Screen):
+    """
+    Best-effort recovery back to the Pokemon HOME All Pokémon list.
+    Tries: close any alert → activate HOME app → tap Pokémon tab.
+    """
+    dismiss_download_dialog(driver)
+    # Re-activate Pokemon HOME in case we drifted to another app
+    try:
+        driver.activate_app(HOME_BUNDLE)
+        time.sleep(2.0)
+    except Exception:
+        pass
+    tap(driver, *screen.pt(TAB_POKEMON_X, TAB_Y))
+    time.sleep(WAIT_TAP)
+
+
 def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> Optional[tuple[Path, Optional[Path]]]:
     """
     Tap a grid slot, screenshot the detail view (two screenshots: top + scrolled),
@@ -349,7 +386,11 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     tap(driver, x, y)
     time.sleep(WAIT_DETAIL)
 
-    # Snapshot after tap
+    # Dismiss any Download check dialog that appeared before the detail screen loaded
+    if dismiss_download_dialog(driver):
+        time.sleep(WAIT_DETAIL)  # wait for detail view to actually load
+
+    # Snapshot after tap (and any dialog dismissal)
     after = IMAGES_DIR / "detail" / "_after.png"
     ss(driver, after)
     hash_after = screenshot_hash(after)
@@ -372,19 +413,19 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     ss(driver, path2)
     hash_p2 = screenshot_hash(path2)
     if hash_p2 == screenshot_hash(path1):
-        # Scroll didn't move (e.g. content fits one screen) — discard duplicate
+        # Scroll didn't move (content fits one screen) — discard duplicate
         path2.unlink(missing_ok=True)
         path2 = None
         print("  [ss] detail: no scroll — single-screen Pokemon")
     else:
         print(f"  [ss] detail/{path2.name}")
 
-    # Close detail view via the × button (green circle, center-bottom of detail screen)
-    # Measured from screenshot: button center at y=2207/2436 (90.6% down, 3x retina image)
-    tap(driver, *screen.pt(0.50, 0.906))
+    # Close detail view via the × button (green circle, center-bottom)
+    # Coordinate calibrated from screenshots: ~92.5% down the screen
+    tap(driver, *screen.pt(0.50, CLOSE_BTN_Y))
     time.sleep(WAIT_BACK)
 
-    # Verify we're back on the list (not stuck on detail or navigated to wrong screen)
+    # Verify we're back on the list
     verify = IMAGES_DIR / "detail" / "_verify.png"
     ss(driver, verify)
     hash_verify = screenshot_hash(verify)
@@ -393,13 +434,12 @@ def capture_slot(driver, screen: Screen, position: int, col: int, row: int) -> O
     if hash_verify == hash_after:
         # Still on detail screen — retry close
         print("  [warn] close failed, retrying ×...")
-        tap(driver, *screen.pt(0.50, 0.906))
+        tap(driver, *screen.pt(0.50, CLOSE_BTN_Y))
         time.sleep(WAIT_BACK + 1.0)
     elif hash_verify != hash_before:
-        # On a different screen (HOME menu, wrong app state) — navigate back to list
-        print("  [warn] wrong screen after close, navigating back to Pokémon list...")
-        tap(driver, *screen.pt(TAB_POKEMON_X, TAB_Y))
-        time.sleep(WAIT_TAP)
+        # Wrong screen — recover back to the list
+        print("  [warn] wrong screen after close, recovering...")
+        recover_to_list(driver, screen)
 
     before.unlink(missing_ok=True)
     return path1, path2
