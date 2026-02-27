@@ -1,0 +1,16 @@
+name: Build and Push
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  build-pokedex:
+    uses: unarmedpuppy/workflows/.gitea/workflows/docker-build.yml@main
+    with:
+      image_name: library/pokedex
+      app_path: .
+      dockerfile: Dockerfile
+      context: .
+    secrets: inherit
