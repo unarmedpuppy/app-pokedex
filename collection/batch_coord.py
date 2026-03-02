@@ -59,19 +59,24 @@ def cmd_import_all():
         print("No output files found.")
         return
 
+    # Get valid DB columns
+    conn = get_db()
+    db_cols = {row[1] for row in conn.execute("PRAGMA table_info(pokemon)")}
+    conn.close()
+    NON_DB_KEYS = {"box", "slot", "image_path", "image_path2"}
+
     total_ok = 0
     total_skip = 0
     for f in files:
         results = json.loads(f.read_text())
         for item in results:
-            NON_DB_KEYS = {"box", "slot", "image_path"}
             update = {
                 "box_number": item["box"],
                 "box_slot": item["slot"],
                 "parsed_at": datetime.now().isoformat(),
                 "raw_json": json.dumps(item),
                 **{k: v for k, v in item.items()
-                   if k not in NON_DB_KEYS and v is not None},
+                   if k not in NON_DB_KEYS and k in db_cols and v is not None},
             }
             upsert_pokemon(update)
             if item.get("species_name"):

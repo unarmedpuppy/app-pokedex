@@ -44,7 +44,7 @@ def list_pokemon(
 ):
     conn = get_conn()
 
-    conditions = ["parsed_at IS NOT NULL"]
+    conditions = ["parsed_at IS NOT NULL", "species_name IS NOT NULL"]
     params: list = []
 
     if q:
@@ -111,11 +111,11 @@ def get_pokemon(pokemon_id: int):
 @app.get("/api/stats")
 def get_stats():
     conn = get_conn()
-    total = conn.execute("SELECT COUNT(*) FROM pokemon WHERE parsed_at IS NOT NULL").fetchone()[0]
-    shiny = conn.execute("SELECT COUNT(*) FROM pokemon WHERE is_shiny = 1").fetchone()[0]
+    total = conn.execute("SELECT COUNT(*) FROM pokemon WHERE parsed_at IS NOT NULL AND species_name IS NOT NULL").fetchone()[0]
+    shiny = conn.execute("SELECT COUNT(*) FROM pokemon WHERE is_shiny = 1 AND species_name IS NOT NULL").fetchone()[0]
     ots = conn.execute(
         "SELECT original_trainer, COUNT(*) as n FROM pokemon "
-        "WHERE parsed_at IS NOT NULL AND original_trainer IS NOT NULL "
+        "WHERE parsed_at IS NOT NULL AND species_name IS NOT NULL AND original_trainer IS NOT NULL "
         "GROUP BY original_trainer ORDER BY n DESC LIMIT 10"
     ).fetchall()
     conn.close()
